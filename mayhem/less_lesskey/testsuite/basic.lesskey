@@ -1,0 +1,16 @@
+#command
+\r forw-line
+\n forw-line
+e forw-line
+y back-line
+^E forw-line
+\kd forw-line
+x quit
+#line-edit
+^A home
+\t forw-complete
+#env
+LESS = -N -x4
+FOO = bar
+BAR = ${FOO}baz${HOME}
+#stop

@@ -1,0 +1,1 @@
+--no-vbell --squeeze-blank-lines --chop-long-lines --quotes=xy --incsearch --search-options=WE -pfoo --tag=x

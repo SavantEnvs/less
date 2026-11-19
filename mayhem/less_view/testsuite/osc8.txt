@@ -1,0 +1,1 @@
+]8;;https://example.com/\link]8;;\ and ]8;id=1;file:///xl2]8;;

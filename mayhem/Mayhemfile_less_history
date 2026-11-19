@@ -1,0 +1,16 @@
+project: savantenvs/less
+target: less_history
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/less_history/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/less_env history @@
+    afl: true
+    timeout: 5
+    env:
+      LESSSECURE: '1'
+      LESSSECURE_ALLOW: history
+      LESSCHARSET: utf-8
+      TERM: xterm
+      LINES: '24'
+      COLUMNS: '80'

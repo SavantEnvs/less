@@ -1,0 +1,10 @@
+.less-history-file:
+.search
+"foo
+"bar\x
+.shell
+"ls
+.mark
+m a 1 2 hist
+m ' 0 5 hist
+m b 3 99 /nonexistent

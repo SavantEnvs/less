@@ -1,0 +1,1 @@
+--header=1,2 -j-3 -z-2 --rscroll=x -# 8 --wordwrap --line-num-width=12 --status-col-width=3 -J --shift .5 -h3 -y4 --mouse --tabs=99999999,1

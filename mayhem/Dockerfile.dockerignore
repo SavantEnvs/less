@@ -1,0 +1,4 @@
+# Build context for mayhem/Dockerfile: the full repo including .git (the grader uses the history),
+# minus local build output.
+mayhem/build-*/
+*.o
